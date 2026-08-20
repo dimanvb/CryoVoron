@@ -1,13 +1,17 @@
-**Safety considerations (duplicated from github.com/mewron/mewron)**
+This repository contains the assembly files and instructions for converting the Voron 0.1 to the Cryo-electrohydrodynamic printer as published by Reizabal et al. in https://doi.org/10.1021/acsbiomaterials.3c00851
+## **Safety considerations (duplicated from github.com/mewron/mewron)** ##
 
 In addition to the already substantial and often underappreciated dangers of building and modifying a 3D printer, which involves mains voltage wiring and manually installing and configuring hundreds of watts of electrical heating power into a small box, melt electrowriting (MEW) further introduces a high voltage hazard in the same printer. We thus ask readers to be mindful of these risks and to heed the warnings outlined in the official Voron manuals as well as the following information on safely interacting with high voltage for MEW.
 
+
 Melt electrowriting requires an electrical potential in the low Kilovolt (kV) regime, and a properly designed system can achieve this easily while operating at below 10 Microamperes (μA) of current. Due to availability, the most used high voltage power supplies have a maximum output of approximately 10 kV and 1 mA, but have their maximum current output reduced to 1% (10 μA) for safe operation in case of arcing or electric shock. Since we anticipate readers to build and experiment with these machines, we ask the readers to err on the side of caution and inform themselves thoroughly based on their specific high voltage sources of the dangers and intricacies of their specific setup before they implement their ideas in practice, and consider safety interlocks, warning lights and proper signage an essential part of their experimental work.
 
-**Abstract**
+# **Abstract** #
+
 The incorporation of 3D-printing principles with electrohydrodynamic (EHD) jetting provides a harmonious balance between resolution and processing speed, allowing for the creation of high-resolution centimeter-scale constructs. Typically, EHD jetting of polymer melts offers the advantage of rapid solidification, while processing polymer solutions requires solvent evaporation to transition into solid fibers, creating challenges for reliable printing. This study navigates a hybrid approach aimed at minimizing printing instabilities by combining viscous solutions and achieving rapid solidification through freezing. Our method introduces and fully describes a modified open-source 3D printer equipped with a frozen collector that operates at −35 °C. As a proof of concept, highly concentrated silk fibroin aqueous solutions are processed into stable micrometer scale jets, which rapidly solidify upon contact with the frozen collector. This results in the formation of uniform microfibers characterized by an average diameter of 27 ± 5 μm, a textured surface, and porous internal channels. The absence of instabilities and the notably fast direct writing speed of 42 mm·s–1 enable precise, fast, and reliable deposition of these fibers into porous constructs spanning several centimeters. The effectiveness of this approach is demonstrated by the consistent production of biologically relevant scaffolds that can be customized with varying pore sizes and shapes. The achieved degree of control over micrometric jet solidification and deposition dynamics represents a significant advancement in EHD jetting, particularly within the domain of aqueous polymer solutions, offering new opportunities for the development of intricate and functional biological structures.
+
 
 <img width="520" height="318" alt="image" src="https://github.com/user-attachments/assets/c3b57404-1875-4ec2-875b-817ff0253037" />
 
-This repository contains the assembly files and instructions for converting the Voron 0.1 to the Cryo-electrohydrodynamic printer as published by Reizabal et al. in https://doi.org/10.1021/acsbiomaterials.3c00851
+
 © 2023 The Authors. Published by American Chemical Society This publication is licensed under a Creative Commons Attribution 4.0 International License.
